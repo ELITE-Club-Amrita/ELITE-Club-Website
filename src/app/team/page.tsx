@@ -26,6 +26,17 @@ const coreTeam = [
 
 const departments = [
     {
+        name: "Research",
+        color: "#FB923C",
+        members: [
+            { name: "Kamal", role: "Head", id: "CB.EN.U4EEE23030" },
+            { name: "Pavan", role: "Co-Head", id: "CB.EN.U4EEE24147" },
+            { name: "Jishnu", role: "Member", id: "CB.SC.U4AIE24019" },
+            { name: "Nishrutha", role: "Member", id: "CB.EN.U4AEE24036" },
+            { name: "Sricharan", role: "Member", id: "CB.SC.U4CSE23764" },
+        ],
+    },
+    {
         name: "Technical",
         color: "#60A5FA",
         members: [
@@ -37,22 +48,26 @@ const departments = [
         ],
     },
     {
-        name: "Brand Ambassadors",
-        color: "#D4AF37",
+        name: "Event Management - Execution",
+        color: "#A78BFA",
         members: [
-            { name: "Bhavesh", role: "Ambassador", id: "CB.EN.U4CCE24014" },
-            { name: "Kushal", role: "Ambassador", id: "CB.EN.U4CCE23065" },
-            { name: "Amitha", role: "Ambassador", id: "CB.AI.U4AID24105" },
-            { name: "Srisha Satish Kanna", role: "Ambassador", id: "CB.AI.U4AIM24046" },
+            { name: "Arjun Gopal", role: "Head", id: "CB.SC.U4AIE23271" },
+            { name: "Minoti", role: "Co-Head", id: "CB.AI.U4AIM24130" },
+            { name: "Meghana", role: "Member", id: "CB.SC.U4AIE24232" },
+            { name: "Meera", role: "Member", id: "CB.AI.U4AID24031" },
+            { name: "Hemanth", role: "Member", id: "CB.EN.U4MEE23030" },
         ],
     },
     {
-        name: "Media",
-        color: "#F472B6",
+        name: "Event Management - Curation",
+        color: "#22D3EE",
         members: [
-            { name: "Sandheep", role: "Head", id: "CB.SC.U4CSE23144" },
-            { name: "Surya", role: "Co-Head", id: "CB.EN.U4EEE24128" },
-            { name: "Anagha", role: "Member", id: "CB.SC.U4AIE23212" },
+            { name: "Lokesh", role: "Head", id: "CB.SC.U4AIE23123" },
+            { name: "Jayanth", role: "Co-Head", id: "" },
+            { name: "P. Tarun", role: "Member", id: "CB.EN.U4ELC23034" },
+            { name: "Sukanthan", role: "Member", id: "CB.SC.U4AIE24056" },
+            { name: "Sumedh", role: "Member", id: "CB.EN.U4ARE24033" },
+            { name: "Madhubala Murugesan", role: "Member", id: "CB.EN.U4EEE23118" },
         ],
     },
     {
@@ -68,37 +83,23 @@ const departments = [
         ],
     },
     {
-        name: "Event Management",
-        color: "#A78BFA",
+        name: "Media",
+        color: "#F472B6",
         members: [
-            { name: "Arjun Gopal", role: "Head", id: "CB.SC.U4AIE23271" },
-            { name: "Minoti", role: "Co-Head", id: "CB.AI.U4AIM24130" },
-            { name: "Meghana", role: "Member", id: "CB.SC.U4AIE24232" },
-            { name: "Meera", role: "Member", id: "CB.AI.U4AID24031" },
-            { name: "Hemanth", role: "Member", id: "CB.EN.U4MEE23030" },
+            { name: "Sandheep", role: "Head", id: "CB.SC.U4CSE23144" },
+            { name: "Surya", role: "Co-Head", id: "CB.EN.U4EEE24128" },
+            { name: "Anagha", role: "Member", id: "CB.SC.U4AIE23212" },
+            { name: "Jethin M S", role: "Member", id: "CB.EN.U4ELC24050" },
         ],
     },
     {
-        name: "Research",
-        color: "#FB923C",
+        name: "ELITE Ambassadors",
+        color: "#D4AF37",
         members: [
-            { name: "Kamal", role: "Head", id: "CB.EN.U4EEE23030" },
-            { name: "Pavan", role: "Co-Head", id: "CB.EN.U4EEE24147" },
-            { name: "Jishnu", role: "Member", id: "CB.SC.U4AIE24019" },
-            { name: "Nishrutha", role: "Member", id: "CB.EN.U4AEE24036" },
-            { name: "Sricharan", role: "Member", id: "CB.SC.U4CSE23764" },
-        ],
-    },
-    {
-        name: "Curation",
-        color: "#22D3EE",
-        members: [
-            { name: "Lokesh", role: "Head", id: "CB.SC.U4AIE23123" },
-            { name: "Jayanth", role: "Co-Head", id: "" },
-            { name: "P. Tarun", role: "Member", id: "CB.EN.U4ELC23034" },
-            { name: "Sukanthan", role: "Member", id: "CB.SC.U4AIE24056" },
-            { name: "Sumedh", role: "Member", id: "CB.EN.U4ARE24033" },
-            { name: "Madhubala Murugesan", role: "Member", id: "CB.EN.U4EEE23118" },
+            { name: "Bhavesh", role: "Ambassador", id: "CB.EN.U4CCE24014" },
+            { name: "Kushal", role: "Ambassador", id: "CB.EN.U4CCE23065" },
+            { name: "Amitha", role: "Ambassador", id: "CB.AI.U4AID24105" },
+            { name: "Srisha Satish Kanna", role: "Ambassador", id: "CB.AI.U4AIM24046" },
         ],
     },
 ];

@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "ELITE Club | Where Leaders are Forged",
-  description: "Entrepreneurship, Leadership, Innovation, Technology, Excellence. Join the community where future leaders are forged.",
+  description: "Entrepreneurship, Leadership, Innovation, Training, Exposure. Join the community where future leaders are forged.",
   keywords: ["ELITE", "leadership", "entrepreneurship", "innovation", "technology", "club"],
   openGraph: {
     title: "ELITE Club",

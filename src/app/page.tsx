@@ -21,8 +21,8 @@ const acronymData = [
     { letter: "E", rest: "ntrepreneurship", description: "Building ventures from zero. Turning ideas into reality." },
     { letter: "L", rest: "eadership", description: "Guiding teams and inspiring change. Leading by example." },
     { letter: "I", rest: "nnovation", description: "Pushing boundaries. Creating solutions that reshape industries." },
-    { letter: "T", rest: "echnology", description: "Harnessing digital power. Staying ahead in a changing world." },
-    { letter: "E", rest: "xcellence", description: "Striving for the highest standards. Never settling." },
+    { letter: "T", rest: "raining", description: "Developing skills and expertise. Learning from the best." },
+    { letter: "E", rest: "xposure", description: "Gaining real-world experience. Connecting with industry leaders." },
 ];
 
 export default function Home() {
