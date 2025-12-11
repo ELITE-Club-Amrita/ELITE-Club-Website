@@ -71,7 +71,7 @@ export function FloatingDock({ items, className = "" }: FloatingDockProps) {
                             stiffness: 300,
                             damping: 30,
                         }}
-                        className="flex items-center gap-1 px-4 py-3 rounded-full bg-elite-dark/80 backdrop-blur-xl border border-elite-graphite/50 shadow-2xl"
+                        className="flex items-center gap-0.5 sm:gap-1 px-2 sm:px-3 md:px-4 py-2 sm:py-3 rounded-full bg-elite-dark/80 backdrop-blur-xl border border-elite-graphite/50 shadow-2xl"
                     >
                         {items.map((item, index) => (
                             <DockItem key={item.href} item={item} index={index} />
@@ -109,7 +109,7 @@ function DockItem({ item, index }: DockItemProps) {
                     stiffness: 400,
                     damping: 17,
                 }}
-                className="relative px-4 py-2 rounded-full cursor-pointer"
+                className="relative px-2 sm:px-3 md:px-4 py-2 rounded-full cursor-pointer min-w-[40px] sm:min-w-[44px] min-h-[40px] sm:min-h-[44px] flex items-center justify-center"
             >
                 <motion.div
                     className="absolute inset-0 rounded-full bg-elite-graphite"
@@ -119,7 +119,7 @@ function DockItem({ item, index }: DockItemProps) {
                 />
 
                 <span
-                    className={`relative z-10 text-sm font-medium transition-colors duration-200 ${isHovered ? "text-elite-gold" : "text-elite-silver"
+                    className={`relative z-10 text-xs sm:text-sm font-medium transition-colors duration-200 ${isHovered ? "text-elite-gold" : "text-elite-silver"
                         }`}
                     style={{ fontFamily: "Satoshi, sans-serif" }}
                 >

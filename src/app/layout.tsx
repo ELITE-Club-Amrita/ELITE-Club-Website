@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://api.fontshare.com" crossOrigin="anonymous" />
       </head>
       <body
-        className="bg-elite-black text-elite-silver antialiased cursor-none md:cursor-none font-satoshi"
+        className="bg-elite-black text-elite-silver antialiased md:cursor-none font-satoshi"
       >
         <SmoothScroll>
           <NoiseOverlay />

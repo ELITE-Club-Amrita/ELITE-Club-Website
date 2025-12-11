@@ -80,7 +80,7 @@ export default function LegacyPage() {
 
             <div
                 ref={decorRef}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] pointer-events-none"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] pointer-events-none"
             >
                 <svg viewBox="0 0 200 200" className="w-full h-full">
                     <defs>
@@ -140,17 +140,17 @@ export default function LegacyPage() {
 
                 <p
                     ref={subtitleRef}
-                    className="text-xl md:text-2xl text-elite-silver/60 text-center mt-8 max-w-lg"
+                    className="text-base sm:text-lg md:text-xl lg:text-2xl text-elite-silver/60 text-center mt-6 sm:mt-8 max-w-sm sm:max-w-md md:max-w-lg px-4"
                 >
                     Our legacy is being written. Something extraordinary is on its way.
                 </p>
 
-                <button className="mt-16 px-8 py-4 border border-elite-gold text-elite-gold rounded-full hover:bg-elite-gold hover:text-elite-black transition-all duration-300 text-sm uppercase tracking-widest">
+                <button className="mt-10 sm:mt-12 md:mt-16 px-6 sm:px-8 py-3 sm:py-4 border border-elite-gold text-elite-gold rounded-full hover:bg-elite-gold hover:text-elite-black transition-all duration-300 text-xs sm:text-sm uppercase tracking-widest min-h-[44px]">
                     Notify Me
                 </button>
             </div>
 
-            <div className="absolute bottom-8 left-8 text-elite-silver/20 text-sm uppercase tracking-widest">
+            <div className="absolute bottom-4 left-4 sm:bottom-8 sm:left-8 text-elite-silver/20 text-xs sm:text-sm uppercase tracking-widest">
                 Legacy
             </div>
         </main>

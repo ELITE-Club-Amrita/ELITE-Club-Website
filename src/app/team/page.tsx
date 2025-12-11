@@ -182,34 +182,34 @@ export default function TeamPage() {
             <CustomCursor />
             <FloatingDock items={navItems} />
 
-            <section ref={headerRef} className="container mx-auto px-8 mb-16 text-center">
+            <section ref={headerRef} className="container mx-auto px-4 sm:px-6 md:px-8 mb-12 sm:mb-16 text-center">
                 <h1
-                    className="text-6xl md:text-8xl lg:text-9xl font-bold text-elite-silver mb-8"
+                    className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-bold text-elite-silver mb-6 sm:mb-8"
                     style={{ fontFamily: "Clash Display, sans-serif" }}
                 >
                     The Team
                 </h1>
-                <p className="text-xl text-elite-silver/50 max-w-2xl mx-auto leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-elite-silver/50 max-w-xl md:max-w-2xl mx-auto leading-relaxed px-4">
                     The constellation of minds driving ELITE forward. Leaders, innovators, and dreamers united by a common vision.
                 </p>
             </section>
 
-            <section ref={coreRef} className="container mx-auto px-8 mb-24">
-                <div className="text-center mb-12">
+            <section ref={coreRef} className="container mx-auto px-4 sm:px-6 md:px-8 mb-16 sm:mb-20 md:mb-24">
+                <div className="text-center mb-8 sm:mb-10 md:mb-12">
                     <h2
-                        className="text-3xl md:text-4xl font-bold text-elite-gold mb-4"
+                        className="text-2xl sm:text-3xl md:text-4xl font-bold text-elite-gold mb-3 sm:mb-4"
                         style={{ fontFamily: "Clash Display, sans-serif" }}
                     >
                         Core Leadership
                     </h2>
-                    <div className="w-24 h-0.5 bg-elite-gold mx-auto" />
+                    <div className="w-16 sm:w-20 md:w-24 h-0.5 bg-elite-gold mx-auto" />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
                     {coreTeam.map((member, index) => (
                         <div
                             key={member.name}
-                            className="core-card group relative p-8 rounded-2xl bg-gradient-to-b from-elite-dark to-elite-black border border-elite-gold/30 hover:border-elite-gold/60 transition-all duration-500"
+                            className="core-card group relative p-6 sm:p-7 md:p-8 rounded-2xl bg-gradient-to-b from-elite-dark to-elite-black border border-elite-gold/30 hover:border-elite-gold/60 transition-all duration-500"
                         >
                             <div
                                 className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -257,17 +257,17 @@ export default function TeamPage() {
                 </div>
             </section>
 
-            <section ref={gridRef} className="container mx-auto px-8">
-                <div className="space-y-16">
+            <section ref={gridRef} className="container mx-auto px-4 sm:px-6 md:px-8">
+                <div className="space-y-10 sm:space-y-12 md:space-y-16">
                     {departments.map((dept) => (
                         <div key={dept.name} className="department">
-                            <div className="flex items-center gap-4 mb-8">
+                            <div className="flex items-center gap-2 sm:gap-3 md:gap-4 mb-5 sm:mb-6 md:mb-8">
                                 <div
-                                    className="w-3 h-3 rounded-full"
+                                    className="w-2 h-2 sm:w-3 sm:h-3 rounded-full flex-shrink-0"
                                     style={{ backgroundColor: dept.color }}
                                 />
                                 <h2
-                                    className="text-2xl md:text-3xl font-bold text-elite-silver"
+                                    className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-elite-silver"
                                     style={{ fontFamily: "Clash Display, sans-serif" }}
                                 >
                                     {dept.name}
@@ -275,7 +275,7 @@ export default function TeamPage() {
                                 <div className="flex-1 h-px bg-elite-graphite/30" />
                             </div>
 
-                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                            <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4">
                                 {dept.members.map((member) => (
                                     <div
                                         key={member.name}
@@ -329,18 +329,18 @@ export default function TeamPage() {
                 </div>
             </section>
 
-            <section className="container mx-auto px-8 mt-24">
-                <div className="text-center p-12 rounded-3xl bg-elite-dark border border-elite-graphite/30">
+            <section className="container mx-auto px-4 sm:px-6 md:px-8 mt-16 sm:mt-20 md:mt-24">
+                <div className="text-center p-8 sm:p-10 md:p-12 rounded-2xl sm:rounded-3xl bg-elite-dark border border-elite-graphite/30">
                     <h2
-                        className="text-3xl md:text-4xl font-bold text-elite-silver mb-4"
+                        className="text-2xl sm:text-3xl md:text-4xl font-bold text-elite-silver mb-3 sm:mb-4"
                         style={{ fontFamily: "Clash Display, sans-serif" }}
                     >
                         Want to Join Us?
                     </h2>
-                    <p className="text-lg text-elite-silver/50 max-w-xl mx-auto mb-8">
+                    <p className="text-base sm:text-lg text-elite-silver/50 max-w-md md:max-w-xl mx-auto mb-6 sm:mb-8 px-2">
                         We are always looking for passionate individuals to join our team.
                     </p>
-                    <button className="px-10 py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300">
+                    <button className="px-8 sm:px-10 py-3 sm:py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 text-sm sm:text-base min-h-[44px]">
                         Apply Now
                     </button>
                 </div>
