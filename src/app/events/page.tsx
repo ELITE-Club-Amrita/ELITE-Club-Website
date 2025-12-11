@@ -80,7 +80,7 @@ export default function EventsPage() {
             <CustomCursor />
             <FloatingDock items={navItems} />
 
-            <div ref={linesRef} className="absolute inset-0 flex justify-between px-20 pointer-events-none">
+            <div ref={linesRef} className="absolute inset-0 hidden md:flex justify-between px-20 pointer-events-none">
                 {[...Array(8)].map((_, i) => (
                     <div
                         key={i}
@@ -94,7 +94,7 @@ export default function EventsPage() {
 
             <div
                 ref={glowRef}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full pointer-events-none"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] rounded-full pointer-events-none"
                 style={{
                     background: "radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%)",
                     filter: "blur(40px)",
@@ -126,7 +126,7 @@ export default function EventsPage() {
 
                 <p
                     ref={subtitleRef}
-                    className="text-lg md:text-xl text-elite-silver/50 text-center mt-8 max-w-md"
+                    className="text-base sm:text-lg md:text-xl text-elite-silver/50 text-center mt-6 sm:mt-8 max-w-sm sm:max-w-md px-4"
                 >
                     Epic experiences are being crafted. Stay tuned for events that will redefine excellence.
                 </p>
@@ -143,12 +143,12 @@ export default function EventsPage() {
                     ))}
                 </div>
 
-                <button className="mt-12 px-8 py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 text-sm uppercase tracking-widest">
+                <button className="mt-8 sm:mt-12 px-6 sm:px-8 py-3 sm:py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 text-xs sm:text-sm uppercase tracking-widest min-h-[44px]">
                     Get Notified
                 </button>
             </div>
 
-            <div className="absolute bottom-8 right-8 text-elite-silver/20 text-sm uppercase tracking-widest">
+            <div className="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 text-elite-silver/20 text-xs sm:text-sm uppercase tracking-widest">
                 Events
             </div>
         </main>

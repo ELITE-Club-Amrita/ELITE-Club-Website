@@ -157,7 +157,7 @@ export default function Home() {
 
                 <h1
                     ref={titleRef}
-                    className="text-[12rem] md:text-[18rem] lg:text-[24rem] font-bold tracking-tighter leading-none relative z-10"
+                    className="text-[4rem] sm:text-[7rem] md:text-[12rem] lg:text-[16rem] xl:text-[20rem] font-bold tracking-tighter leading-none relative z-10"
                     style={{
                         fontFamily: "Clash Display, sans-serif",
                         background: "linear-gradient(180deg, #ffffff 0%, #666666 100%)",
@@ -171,7 +171,7 @@ export default function Home() {
 
                 <p
                     ref={taglineRef}
-                    className="text-lg md:text-xl text-elite-gold tracking-[0.3em] uppercase mt-2 relative z-10"
+                    className="text-sm sm:text-lg md:text-xl text-elite-gold tracking-[0.15em] sm:tracking-[0.3em] uppercase mt-2 relative z-10 px-4 text-center"
                 >
                     Where Leaders are Forged
                 </p>
@@ -191,7 +191,7 @@ export default function Home() {
                             <div className="flex flex-col items-center">
                                 <div className="flex items-baseline">
                                     <span
-                                        className="big-letter text-[14rem] md:text-[20rem] font-bold"
+                                        className="big-letter text-[6rem] sm:text-[10rem] md:text-[14rem] lg:text-[18rem] font-bold"
                                         style={{
                                             fontFamily: "Clash Display, sans-serif",
                                             background: "linear-gradient(180deg, #D4AF37 0%, #8a701e 100%)",
@@ -203,35 +203,35 @@ export default function Home() {
                                         {item.letter}
                                     </span>
                                     <span
-                                        className="rest-word text-[3rem] md:text-[5rem] font-bold text-elite-silver -ml-2"
+                                        className="rest-word text-[1.5rem] sm:text-[2.5rem] md:text-[3.5rem] lg:text-[4.5rem] font-bold text-elite-silver -ml-1 sm:-ml-2"
                                         style={{ fontFamily: "Clash Display, sans-serif" }}
                                     >
                                         {item.rest}
                                     </span>
                                 </div>
 
-                                <div className="underline w-32 h-0.5 bg-elite-gold mt-4" />
+                                <div className="underline w-16 sm:w-24 md:w-32 h-0.5 bg-elite-gold mt-2 sm:mt-4" />
 
-                                <p className="description text-lg text-elite-silver/60 text-center mt-8 max-w-md">
+                                <p className="description text-sm sm:text-base md:text-lg text-elite-silver/60 text-center mt-4 sm:mt-6 md:mt-8 max-w-xs sm:max-w-sm md:max-w-md px-4">
                                     {item.description}
                                 </p>
                             </div>
                         </div>
                     ))}
 
-                    <div className="flex-shrink-0 w-screen h-full flex items-center justify-center">
+                    <div className="flex-shrink-0 w-screen h-full flex items-center justify-center px-4">
                         <div className="text-center">
                             <h2
-                                className="text-5xl md:text-7xl font-bold text-elite-silver mb-6"
+                                className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-elite-silver mb-4 sm:mb-6"
                                 style={{ fontFamily: "Clash Display, sans-serif" }}
                             >
                                 This is ELITE
                             </h2>
-                            <p className="text-xl text-elite-silver/50 mb-10 max-w-lg mx-auto">
+                            <p className="text-base sm:text-lg md:text-xl text-elite-silver/50 mb-6 sm:mb-8 md:mb-10 max-w-sm sm:max-w-md md:max-w-lg mx-auto px-4">
                                 A community of visionaries, leaders, and innovators.
                             </p>
                             <MagneticWrapper strength={0.2}>
-                                <button className="px-10 py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300">
+                                <button className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 text-sm sm:text-base min-h-[44px]">
                                     Join Us
                                 </button>
                             </MagneticWrapper>
@@ -241,16 +241,16 @@ export default function Home() {
             </section>
 
             <section className="h-screen bg-elite-black flex items-center justify-center">
-                <div className="text-center px-6">
+                <div className="text-center px-4 sm:px-6">
                     <h2
-                        className="text-4xl md:text-6xl font-bold text-elite-silver mb-6"
+                        className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-elite-silver mb-4 sm:mb-6"
                         style={{ fontFamily: "Clash Display, sans-serif" }}
                     >
                         Explore Our Legacy
                     </h2>
                     <a
                         href="/legacy"
-                        className="inline-block px-8 py-3 border border-elite-gold text-elite-gold rounded-full hover:bg-elite-gold hover:text-elite-black transition-all duration-300"
+                        className="inline-block px-6 sm:px-8 py-3 border border-elite-gold text-elite-gold rounded-full hover:bg-elite-gold hover:text-elite-black transition-all duration-300 text-sm sm:text-base min-h-[44px]"
                     >
                         View Timeline →
                     </a>
