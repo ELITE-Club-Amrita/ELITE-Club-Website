@@ -13,7 +13,7 @@ const navItems = [
 
 export default function TeamPage() {
     return (
-        <main className="bg-[#050505] min-h-screen">
+        <main className="bg-elite-black min-h-screen">
             <CustomCursor />
             <FloatingDock items={navItems} />
             <BentoTeamGrid />
