@@ -18,96 +18,84 @@ const navItems = [
 ];
 
 const coreTeam = [
-    { name: "Anu G Kumar", role: "Faculty Coordinator", id: "" },
-    { name: "Anish Visakan", role: "President", id: "CB.SC.U4ARE23007" },
-    { name: "Korukonda L K M Prem Chand", role: "Vice President", id: "CB.EN.U4ELC23024" },
-    { name: "Kunapuli Chandra Mouli", role: "Treasurer", id: "CB.EN.U4EEE23053" },
+    { name: "Anu G Kumar", role: "Faculty Coordinator", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+    { name: "Anish Visakan", role: "President", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+    { name: "Korukonda L K M Prem Chand", role: "Vice President", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+    { name: "Kunapuli Chandra Mouli", role: "Treasurer", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
 ];
 
 const departments = [
     {
         name: "Research",
-        color: "#FB923C",
         members: [
-            { name: "Kamal", role: "Head", id: "CB.EN.U4EEE23030" },
-            { name: "Pavan", role: "Co-Head", id: "CB.EN.U4EEE24147" },
-            { name: "Jishnu", role: "Member", id: "CB.SC.U4AIE24019" },
-            { name: "Nishrutha", role: "Member", id: "CB.EN.U4AEE24036" },
-            { name: "Sricharan", role: "Member", id: "CB.SC.U4CSE23764" },
+            { name: "Kamal", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Pavan", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Jishnu", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Nishrutha", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Sricharan", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "Technical",
-        color: "#60A5FA",
         members: [
-            { name: "Krishna", role: "Head", id: "CB.EN.U4ELC23048" },
-            { name: "Sudharshana", role: "Co-Head (Backend)", id: "CB.SC.U4CSE23054" },
-            { name: "Samith Reddy", role: "Frontend", id: "CB.SC.U4CSE24111" },
-            { name: "Swetha", role: "Frontend", id: "CB.SC.U4CSE23050" },
-            { name: "Hari Prasath", role: "Backend", id: "CB.SC.U4CSE23515" },
+            { name: "Krishna", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Sudharsana Saravanan S", role: "Co-Head (Backend)", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Samith Reddy", role: "Frontend", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Swetha C", role: "Frontend", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Hari Prasath", role: "Backend", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "Event Management - Execution",
-        color: "#A78BFA",
         members: [
-            { name: "Arjun Gopal", role: "Head", id: "CB.SC.U4AIE23271" },
-            { name: "Minoti", role: "Co-Head", id: "CB.AI.U4AIM24130" },
-            { name: "Meghana", role: "Member", id: "CB.SC.U4AIE24232" },
-            { name: "Meera", role: "Member", id: "CB.AI.U4AID24031" },
-            { name: "Hemanth", role: "Member", id: "CB.EN.U4MEE23030" },
+            { name: "Arjun Gopal", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Minoti", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Meghana", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Meera", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Hemanth", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "Event Management - Curation",
-        color: "#22D3EE",
         members: [
-            { name: "Lokesh", role: "Head", id: "CB.SC.U4AIE23123" },
-            { name: "Jayanth", role: "Co-Head", id: "" },
-            { name: "P. Tarun", role: "Member", id: "CB.EN.U4ELC23034" },
-            { name: "Sukanthan", role: "Member", id: "CB.SC.U4AIE24056" },
-            { name: "Sumedh", role: "Member", id: "CB.EN.U4ARE24033" },
-            { name: "Madhubala Murugesan", role: "Member", id: "CB.EN.U4EEE23118" },
+            { name: "Lokesh", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Jayanth", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "P. Tarun", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Sukanthan", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Sumedh", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Madhubala Murugesan", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "Public Relations",
-        color: "#4ADE80",
         members: [
-            { name: "Sanjit", role: "Head", id: "CB.SC.U4CSE23243" },
-            { name: "Noha", role: "Co-Head", id: "CB.SC.U4AIE24336" },
-            { name: "Ishwarya", role: "Co-Head", id: "CB.SC.U4AIE24220" },
-            { name: "Ganesh", role: "Member", id: "CB.EN.U4ECE24116" },
-            { name: "Harsha", role: "Member", id: "CB.EN.U4ELC24011" },
-            { name: "Thoshan", role: "Member", id: "CB.EN.U4ELC24029" },
+            { name: "Sanjit", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Noha", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Ishwarya", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Ganesh", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Harsha", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Thoshan", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "Media",
-        color: "#F472B6",
         members: [
-            { name: "Sandheep", role: "Head", id: "CB.SC.U4CSE23144" },
-            { name: "Surya", role: "Co-Head", id: "CB.EN.U4EEE24128" },
-            { name: "Anagha", role: "Member", id: "CB.SC.U4AIE23212" },
-            { name: "Jethin M S", role: "Member", id: "CB.EN.U4ELC24050" },
+            { name: "Sandheep", role: "Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Surya", role: "Co-Head", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Anagha", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Jethin M S", role: "Member", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
     {
         name: "ELITE Ambassadors",
-        color: "#D4AF37",
         members: [
-            { name: "Bhavesh", role: "Ambassador", id: "CB.EN.U4CCE24014" },
-            { name: "Kushal", role: "Ambassador", id: "CB.EN.U4CCE23065" },
-            { name: "Amitha", role: "Ambassador", id: "CB.AI.U4AID24105" },
-            { name: "Srisha Satish Kanna", role: "Ambassador", id: "CB.AI.U4AIM24046" },
+            { name: "Bhavesh", role: "Ambassador", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Kushal", role: "Ambassador", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Amitha", role: "Ambassador", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
+            { name: "Srisha Satish Kanna", role: "Ambassador", image: "", linkedin: "https://linkedin.com", email: "test@example.com" },
         ],
     },
 ];
-
-function getInitials(name: string): string {
-    return name.split(" ").map((n) => n[0]).join("").toUpperCase().slice(0, 2);
-}
-
 export default function TeamPage() {
     const headerRef = useRef<HTMLDivElement>(null);
     const coreRef = useRef<HTMLDivElement>(null);
@@ -178,96 +166,111 @@ export default function TeamPage() {
     }, []);
 
     return (
-        <main className="bg-elite-black min-h-screen pt-24 pb-32">
+        <main className="bg-[#0a3a52] min-h-screen pt-24 pb-32">
             <CustomCursor />
             <FloatingDock items={navItems} />
 
-            <section ref={headerRef} className="container mx-auto px-4 sm:px-6 md:px-8 mb-12 sm:mb-16 text-center">
+            <section ref={headerRef} className="container mx-auto px-8 mb-16 text-center">
                 <h1
-                    className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl xl:text-9xl font-bold text-elite-silver mb-6 sm:mb-8"
+                    className="text-6xl md:text-8xl lg:text-9xl font-bold text-elite-silver mb-8"
                     style={{ fontFamily: "Clash Display, sans-serif" }}
                 >
-                    The Team
+                    Our Team
                 </h1>
-                <p className="text-base sm:text-lg md:text-xl text-elite-silver/50 max-w-xl md:max-w-2xl mx-auto leading-relaxed px-4">
+                <p className="text-xl text-elite-silver/50 max-w-2xl mx-auto leading-relaxed">
                     The constellation of minds driving ELITE forward. Leaders, innovators, and dreamers united by a common vision.
                 </p>
             </section>
 
-            <section ref={coreRef} className="container mx-auto px-4 sm:px-6 md:px-8 mb-16 sm:mb-20 md:mb-24">
-                <div className="text-center mb-8 sm:mb-10 md:mb-12">
+            <section ref={coreRef} className="container mx-auto px-8 mb-24">
+                <div className="text-center mb-12">
                     <h2
-                        className="text-2xl sm:text-3xl md:text-4xl font-bold text-elite-gold mb-3 sm:mb-4"
+                        className="text-3xl md:text-4xl font-bold text-elite-gold mb-4"
                         style={{ fontFamily: "Clash Display, sans-serif" }}
                     >
                         Core Leadership
                     </h2>
-                    <div className="w-16 sm:w-20 md:w-24 h-0.5 bg-elite-gold mx-auto" />
+                    <div className="w-24 h-0.5 bg-elite-gold mx-auto" />
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {coreTeam.map((member, index) => (
                         <div
                             key={member.name}
-                            className="core-card group relative p-6 sm:p-7 md:p-8 rounded-2xl bg-gradient-to-b from-elite-dark to-elite-black border border-elite-gold/30 hover:border-elite-gold/60 transition-all duration-500"
+                            className="core-card group relative p-8 rounded-2xl bg-gradient-to-b from-[#f5f5f0c2] to-[#e8e8e0] border border-[#d0d0c8]/50 hover:border-[#c0c0b8] transition-all duration-500 hover:shadow-[0_0_30px_rgba(200,200,190,0.3)] overflow-hidden"
                         >
                             <div
-                                className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                                 style={{
-                                    background: "radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1) 0%, transparent 60%)",
+                                    background: "radial-gradient(circle at 50% 0%, rgba(220, 220, 210, 0.3) 0%, transparent 70%)",
                                 }}
                             />
 
-                            <div className="relative z-10 text-center">
+                            <div className="relative z-10 text-center pointer-events-none">
                                 <div
-                                    className="w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 border-2 border-elite-gold/50 group-hover:border-elite-gold transition-colors duration-300"
+                                    className="w-24 h-24 mx-auto rounded-full flex items-center justify-center mb-6 border-2 border-[#a8a8a0]/50 group-hover:border-[#8a8a80] transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(160,160,150,0.4)] group-hover:opacity-0 overflow-hidden"
                                     style={{
-                                        background: "linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.05) 100%)",
+                                        background: "linear-gradient(135deg, rgba(200, 200, 190, 0.3) 0%, rgba(180, 180, 170, 0.15) 100%)",
                                     }}
                                 >
-                                    <span
-                                        className="text-2xl font-bold text-elite-gold"
-                                        style={{ fontFamily: "Clash Display, sans-serif" }}
-                                    >
-                                        {getInitials(member.name)}
-                                    </span>
+                                    {member.image ? (
+                                        <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                                    ) : (
+                                        <svg className="w-12 h-12 text-[#8a8a80]" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                        </svg>
+                                    )}
                                 </div>
 
                                 <h3
-                                    className="text-xl font-bold text-elite-silver group-hover:text-white transition-colors duration-300 mb-2"
+                                    className="text-2xl font-bold text-[#3a3a30] group-hover:opacity-0 transition-opacity duration-300 mb-2"
                                     style={{ fontFamily: "Clash Display, sans-serif" }}
                                 >
                                     {member.name}
                                 </h3>
 
-                                <p className="text-sm font-semibold text-elite-gold uppercase tracking-wider mb-3">
+                                <p className="text-lg font-semibold text-[#6a6a60] uppercase tracking-wider mb-3 group-hover:opacity-0 transition-opacity duration-300">
                                     {member.role}
                                 </p>
-
-                                {member.id && (
-                                    <p className="text-xs text-elite-silver/30 font-mono">
-                                        {member.id}
-                                    </p>
-                                )}
                             </div>
 
-                            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-elite-gold/50 to-transparent" />
+                            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-[#a8a8a0]/50 to-transparent pointer-events-none" />
+
+                            <div className="absolute inset-0 bg-gradient-to-b from-[#f5f5f0c2] to-[#e8e8e0] translate-y-[-100%] group-hover:translate-y-0 transition-transform duration-500 ease-out flex items-center justify-center gap-4 rounded-2xl">
+                                <a
+                                    href={member.linkedin}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="hover:scale-110 transform transition-transform cursor-pointer"
+                                >
+                                    <svg className="w-6 h-6 text-[#4a4a40]" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                    </svg>
+                                </a>
+                                <a
+                                    href={`mailto:${member.email}`}
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="hover:scale-110 transform transition-transform cursor-pointer"
+                                >
+                                    <svg className="w-6 h-6 text-[#4a4a40]" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     ))}
                 </div>
             </section>
 
-            <section ref={gridRef} className="container mx-auto px-4 sm:px-6 md:px-8">
-                <div className="space-y-10 sm:space-y-12 md:space-y-16">
+            <section ref={gridRef} className="container mx-auto px-8">
+                <div className="space-y-16">
                     {departments.map((dept) => (
                         <div key={dept.name} className="department">
-                            <div className="flex items-center gap-2 sm:gap-3 md:gap-4 mb-5 sm:mb-6 md:mb-8">
-                                <div
-                                    className="w-2 h-2 sm:w-3 sm:h-3 rounded-full flex-shrink-0"
-                                    style={{ backgroundColor: dept.color }}
-                                />
+                            <div className="flex items-center gap-4 mb-8">
+                                <div className="w-3 h-3 rounded-full bg-elite-gold" />
                                 <h2
-                                    className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-elite-silver"
+                                    className="text-2xl md:text-3xl font-bold text-elite-silver"
                                     style={{ fontFamily: "Clash Display, sans-serif" }}
                                 >
                                     {dept.name}
@@ -275,51 +278,64 @@ export default function TeamPage() {
                                 <div className="flex-1 h-px bg-elite-graphite/30" />
                             </div>
 
-                            <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4">
+                            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                 {dept.members.map((member) => (
                                     <div
                                         key={member.name}
-                                        className="group p-4 rounded-xl bg-elite-dark border border-elite-graphite/30 hover:border-opacity-0 transition-all duration-300 relative overflow-hidden"
+                                        className="group p-4 rounded-xl border transition-all duration-500 relative overflow-hidden bg-gradient-to-b from-[#f5f5f0] to-[#e8e8e0] border-[#d0d0c8]/50 hover:border-[#c0c0b8]"
                                     >
                                         <div
-                                            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                                             style={{
-                                                background: `radial-gradient(circle at 50% 0%, ${dept.color}15 0%, transparent 70%)`,
+                                                background: "radial-gradient(circle at 50% 0%, rgba(220, 220, 210, 0.4) 0%, transparent 70%)",
                                             }}
                                         />
 
-                                        <div className="relative z-10">
+                                        <div className="relative z-10 text-center pointer-events-none">
                                             <div
-                                                className="w-12 h-12 rounded-full flex items-center justify-center mb-3 border transition-colors duration-300"
-                                                style={{
-                                                    backgroundColor: `${dept.color}15`,
-                                                    borderColor: `${dept.color}30`,
-                                                }}
+                                                className="w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-3 border transition-colors duration-300 bg-gradient-to-br from-[#e8e8e0] to-[#d8d8d0] border-[#c0c0b8]/50 group-hover:opacity-0 overflow-hidden"
                                             >
-                                                <span
-                                                    className="text-sm font-bold"
-                                                    style={{ color: dept.color }}
-                                                >
-                                                    {getInitials(member.name)}
-                                                </span>
+                                                {member.image ? (
+                                                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                                                ) : (
+                                                    <svg className="w-8 h-8 text-[#8a8a80]" fill="currentColor" viewBox="0 0 24 24">
+                                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                                    </svg>
+                                                )}
                                             </div>
 
-                                            <h3 className="text-sm font-semibold text-elite-silver group-hover:text-white transition-colors duration-300">
+                                            <h3 className="text-lg font-semibold text-[#3a3a30] group-hover:opacity-0 transition-opacity duration-300">
                                                 {member.name}
                                             </h3>
 
-                                            <p
-                                                className="text-xs font-medium mt-1"
-                                                style={{ color: dept.color }}
-                                            >
+                                            <p className="text-xs font-medium mt-1 group-hover:opacity-0 transition-opacity duration-300 text-[#6a6a60]">
                                                 {member.role}
                                             </p>
+                                        </div>
 
-                                            {member.id && (
-                                                <p className="text-[10px] text-elite-silver/30 mt-2 font-mono">
-                                                    {member.id}
-                                                </p>
-                                            )}
+                                        <div 
+                                            className="absolute inset-0 bg-gradient-to-b from-[#f5f5f0] to-[#e8e8e0] translate-y-[-100%] group-hover:translate-y-0 transition-transform duration-500 ease-out flex items-center justify-center gap-3 rounded-xl"
+                                        >
+                                            <a
+                                                href={member.linkedin}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                onClick={(e) => e.stopPropagation()}
+                                                className="hover:scale-110 transform transition-transform cursor-pointer"
+                                            >
+                                                <svg className="w-5 h-5 text-[#4a4a40]" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                                </svg>
+                                            </a>
+                                            <a
+                                                href={`mailto:${member.email}`}
+                                                onClick={(e) => e.stopPropagation()}
+                                                className="hover:scale-110 transform transition-transform cursor-pointer"
+                                            >
+                                                <svg className="w-5 h-5 text-[#4a4a40]" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                                                </svg>
+                                            </a>
                                         </div>
                                     </div>
                                 ))}
@@ -329,18 +345,18 @@ export default function TeamPage() {
                 </div>
             </section>
 
-            <section className="container mx-auto px-4 sm:px-6 md:px-8 mt-16 sm:mt-20 md:mt-24">
-                <div className="text-center p-8 sm:p-10 md:p-12 rounded-2xl sm:rounded-3xl bg-elite-dark border border-elite-graphite/30">
+            <section className="container mx-auto px-8 mt-24">
+                <div className="text-center p-12 rounded-3xl bg-gradient-to-b from-[#0C4160]/70 to-[#0C4160]/50 border border-[#D3AF37]/30">
                     <h2
-                        className="text-2xl sm:text-3xl md:text-4xl font-bold text-elite-silver mb-3 sm:mb-4"
+                        className="text-3xl md:text-4xl font-bold text-[#D3AF37] mb-4"
                         style={{ fontFamily: "Clash Display, sans-serif" }}
                     >
                         Want to Join Us?
                     </h2>
-                    <p className="text-base sm:text-lg text-elite-silver/50 max-w-md md:max-w-xl mx-auto mb-6 sm:mb-8 px-2">
+                    <p className="text-lg text-[#E2E6E8]/70 max-w-xl mx-auto mb-8">
                         We are always looking for passionate individuals to join our team.
                     </p>
-                    <button className="px-8 sm:px-10 py-3 sm:py-4 bg-elite-gold text-elite-black font-semibold rounded-full hover:scale-105 transition-transform duration-300 text-sm sm:text-base min-h-[44px]">
+                    <button className="px-10 py-4 bg-[#D3AF37] text-[#0C4160] font-semibold rounded-full hover:scale-105 transition-transform duration-300">
                         Apply Now
                     </button>
                 </div>

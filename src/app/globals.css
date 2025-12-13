@@ -4,20 +4,20 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-elite-black: #030303;
-  --color-elite-dark: #0a0a0a;
-  --color-elite-gold: #D4AF37;
-  --color-elite-gold-dim: #8a701e;
-  --color-elite-silver: #EDEDED;
-  --color-elite-graphite: #2A2A2A;
+  --color-elite-black: #0C4160;
+  --color-elite-dark: #545B5C;
+  --color-elite-gold: #D3AF37;
+  --color-elite-gold-dim: #AEA885;
+  --color-elite-silver: #E2E6E8;
+  --color-elite-graphite: #C1C3BE;
 
   --font-clash: "Clash Display", sans-serif;
   --font-satoshi: "Satoshi", sans-serif;
 }
 
 :root {
-  --background: #030303;
-  --foreground: #EDEDED;
+  --background: #062738;
+  --foreground: #E2E6E8;
 }
 
 body {
@@ -36,8 +36,8 @@ body {
 }
 
 ::selection {
-  background-color: #D4AF37;
-  color: #030303;
+  background-color: #bc9b30;
+  color: #0a3a52;
 }
 
 html {
@@ -49,20 +49,20 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #0a3a52;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2A2A2A;
+  background: #C1C3BE;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D4AF37;
+  background: #D3AF37;
 }
 
 .text-gold-gradient {
-  background: linear-gradient(to right, #D4AF37, #F2D06B, #D4AF37);
+  background: linear-gradient(to right, #D3AF37, #F2D06B, #D3AF37);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
